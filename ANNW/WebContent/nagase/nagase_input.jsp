@@ -7,7 +7,7 @@
 <title>ながせのページだよ（はーと）</title>
 </head>
 <body>
-	<h1>テストボタン</h1>
+	<h1>テストボvvvvン</h1>
        <form method="post" action="ntest">
            ユーザー名<input type="text" name="name"><br>
            <input type="submit" value="登録">
