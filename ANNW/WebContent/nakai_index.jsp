@@ -8,9 +8,13 @@
 </head>
 <body>
 	<h1>ユーザー登録</h1>
-	<form method="GET" action="Alex_Customer">
+	<form method="POST" action="Nakai_CheckBox">
 		ユーザー名<input type="text" name="name"><br>
-		パスワード<input type="text" name="pass"><br>
+		<h2>趣味</h2>
+		<label><input type="checkbox" name="hobby" value="ソープランド">ソープランド</label>
+		<label><input type="checkbox" name="hobby" value="デリヘル">デリヘル</label>
+		<label><input type="checkbox" name="hobby" value="ピンサロ">ピンサロ</label>
+		<label><input type="checkbox" name="hobby" value="イメクラ">イメクラ</label>
 		<input type="submit" value="送信">
 	</form>
 </body>

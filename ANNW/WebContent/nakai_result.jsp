@@ -12,10 +12,12 @@
 	<table border="1">
 		<tr><th>name</th><th>pass</th></tr>
 		<c:forEach var="customer" items="${customers}">
-			<tr><td>${customer.name}</td><td>${customer.pass}</td></tr>
+			<c:forEach var="hobbys" items="${hobby}">
+				<tr><td>${customer.name}</td><td>${hobbys}</td></tr>
+			</c:forEach>
 		</c:forEach>
 	</table>
-	<a href="alex_index.jsp">Back Alex page</a><br>
+	<a href="nakai_index.jsp">Back Nakai page</a><br>
 	<a href="index.html">Back Home Page</a><br>
 </body>
 </html>
