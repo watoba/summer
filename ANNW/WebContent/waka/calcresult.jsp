@@ -5,7 +5,7 @@
 <head><title>ŒvŽZ</title></head>
 <body>
 	<h1>ŒvŽZ</h1>
-	<form method='get' action='calcservlet'>
+	<form method='get' action='InfoTest'>
 	<input type='text' name='fir'>
 	{<input type='radio' name='radio' value='+'>
 	|<input type='radio' name='radio' value='-'>
