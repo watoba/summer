@@ -4,11 +4,16 @@ import java.io.IOException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class InfoTest extends HttpServlet{
+/**
+ * Servlet implementation class InfoTest1
+ */
+@WebServlet("/InfoTest1")
+public class InfoTest1 extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 	throws IOException, ServletException{
 		req.setCharacterEncoding("Windows-31J");
