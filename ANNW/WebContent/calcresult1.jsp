@@ -17,6 +17,6 @@
 	</form>
 
 	<h1>解答</h1>
-	<tr><td>${fir}</td><td>${radio}</td><td>${sec}</td><td>= ${result}</td>
+	${fir} ${radio} ${sec} = ${result}
 </body>
 </html>
