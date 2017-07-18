@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>ユーザー登録</h1>
-	<form method="POST" action="Nakai_CheckBox">
+	<form method="GET" action="Nakai_CheckBox">
 		ユーザー名<input type="text" name="name"><br>
 		<h2>趣味</h2>
 		<label><input type="checkbox" name="hobby" value="ソープランド">ソープランド</label>
