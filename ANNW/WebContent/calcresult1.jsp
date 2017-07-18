@@ -5,7 +5,7 @@
 <head><title>計算</title></head>
 <body>
 	<h1>計算</h1>
-	<form method='get' action='Infotest'>
+	<form method='get' action='InfoTest1'>
 	<input type='text' name='fir'>
 	＋<input type='radio' name='radio' value='+'>
 	－<input type='radio' name='radio' value='-'>
@@ -17,8 +17,6 @@
 	</form>
 
 	<h1>解答</h1>
-	<table border="1">
-		<tr><td>${fir}</td><td>${radio}</td><td>${sec}</td><td>= ${result}</td>
-	</table>
+	<tr><td>${fir}</td><td>${radio}</td><td>${sec}</td><td>= ${result}</td>
 </body>
 </html>

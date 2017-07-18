@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class InfoTest1 extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res)
 	throws IOException, ServletException{
-		req.setCharacterEncoding("Windows-31J");
+		req.setCharacterEncoding("UTF-8");
 
 		String fir = req.getParameter("fir");
 		String sec = req.getParameter("sec");
@@ -41,7 +41,7 @@ public class InfoTest1 extends HttpServlet{
 		req.setAttribute("radio",radio);
 		req.setAttribute("result",result);
 
-		RequestDispatcher dispatcher = req.getRequestDispatcher("calcresult");
+		RequestDispatcher dispatcher = req.getRequestDispatcher("calcresult1.jsp");
 
 		dispatcher.forward(req, res);
 	}
