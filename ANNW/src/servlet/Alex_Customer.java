@@ -27,7 +27,7 @@ public class Alex_Customer extends HttpServlet {
 
 			String username = req.getParameter("name");
 			String password = req.getParameter("pass");
-
+			System.out.println(username);
 			//Customerをインスタンス化
 			Customer customer = new Customer();
 

@@ -8,15 +8,11 @@
 <title>結果</title>
 </head>
 <body>
-	<h1>Customers</h1>
-	<table border="1">
-		<tr><th>name</th><th>pass</th></tr>
-		<c:forEach var="customer" items="${customers}">
-			<c:forEach var="hobbys" items="${hobby}">
-				<tr><td>${customer.name}</td><td>${hobbys}</td></tr>
-			</c:forEach>
-		</c:forEach>
-	</table>
+	<h1>Hobbies</h1>
+	${username}は以下のものに興味を持っている<br>
+	<c:forEach var="hobby" items="${hobbies}">
+		${hobby},
+	</c:forEach><br>
 	<a href="nakai_index.jsp">Back Nakai page</a><br>
 	<a href="index.html">Back Home Page</a><br>
 </body>
