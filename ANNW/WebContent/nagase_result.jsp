@@ -7,6 +7,6 @@
 <title>nagasepage</title>
 </head>
 <body>
-<h1>abcdそれは${value}</h1>
+<h1>それは${value}</h1>
 </body>
 </html>
